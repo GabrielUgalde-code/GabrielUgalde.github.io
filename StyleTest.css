@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body
+{
+    background-color: rgb(0, 0, 9);
+}
+
+*
+{
+    font-family: 'Montserrat', sans-serif;
+    /*color: aliceblue;*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*background-color: #242522;*/
+}
+
+.NavBar button
+{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+li, a
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+.Opc
+{
+    /*background-color: rgb(3, 12, 33);*/
+    display: flex;
+    /*justify-content: ;*/
+    /*align-items: center;*/
+    /*padding: 20px;*/
+    padding-top: 35px;
+    padding-bottom: 20px;
+
+    /*
+    padding-right: auto;
+    padding-left: 45px;
+    */
+}
+
+.Opc ul
+{
+    padding-right: 15px;
+}
+
+.nav_options h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 46px;
+    color: aliceblue;
+    text-decoration:none ;
+    padding-bottom: 25px;
+
+}
+.nav_options
+{
+    padding-top: 35px;
+    padding-left: 75px;
+}
+
+.nav_options input, button
+{
+    /**margin: 0 8px;*/
+    transition: all 0.3s ease 0s;
+}
+
+.B1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+    /*padding-right: 35px;*/
+    padding: 9px 25px;
+    background-color: rgb(8, 77, 141);
+
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.B2:hover
+{
+    background-color: rgb(0, 37, 111);
+}
+
+.B2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(138, 138, 138);
+    text-decoration: none;
+    /*padding-right: 35px;*/
+
+    padding: 9px 25px;
+
+    background-color: rgb(0, 0, 9);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+.collec
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: aliceblue;
+
+    padding-left: 75px;
+    padding-RIGHT: 75px;
+    max-width: 1100px;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+.NavBar
+{
+    background-color: rgb(3, 12, 33);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /*padding: 20px;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+
+.logo
+{
+    font-size: 54px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links
+{
+    padding-left: 55px;
+    list-style: none;
+}
+
+.nav_links li
+{
+    display: inline-block;
+    padding: 0px 15px;
+    padding-left: 15px;
+}
+
+.nav_links li a
+{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover
+{
+    color: rgb(0, 142, 186);
+    /*transition: all 0.3s ease 0s;*/
+}
+
+.NavBar button
+{
+    padding-right: 35;
+    padding: 9px 25px;
+    background-color: rgb(0, 128, 202);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover
+{
+    background-color: rgb(0, 37, 111);
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+.row
+{
+    display: flex;
+
+    padding-left: 75px;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+
+    flex-wrap: wrap;
+}
+
+.column
+{
+    padding-top: 0%;
+    flex: 25%;
+    padding: 5px;
+
+    transition: all 0.3s ease 0s;
+}
+
+
+.column img
+{
+    margin-top: 5px;
+}
+
+
+img
+{
+    width: 100%;
+    filter: grayscale(100%);
+    color: rgb(15, 87, 87);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+img:hover
+{
+    transition: all 0.3s ease 0s;
+    filter: grayscale(0%);
+    /*background-position: 100% 100%;*/
+    /*opacity: .5;*/
+}
+
+
+@media (max-width: 900px)
+{
+    .column
+    {
+        flex: 50%;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .column
+    {
+        flex: 100%;
+    }
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+.card
+{
+    width: 100%;
+    position: relative;
+    /*margin-bottom: 20px;*/
+    overflow: hidden;
+}
+
+.card img
+{
+    width: 100%;
+    filter: grayscale(100%);
+    object-fit: cover;
+
+    transition: all 0.3s ease 0s;
+}
+
+.card:hover
+{
+    transform: scale(1.02);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.card:hover img
+{
+    filter: grayscale(0%);
+}
+
+.card figcaption
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px;
+
+    width: 500px;
+    background-size: cover;
+    font-size: 16px;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+    /*background: linear-gradient(180deg, rgba(0,0,0,0.086) 46.54%, rgba(0, 0, 0, 0.733) 85.32%, #000000 98.7%);
+    */
+    /*background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.5) 56%, rgba(0,0,0,0.75) 79%, rgba(0,0,0,1) 99%, rgba(0,0,0,1) 100%);
+    */
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 12.27%, rgba(0, 0, 0, 0.551505) 48.59%, rgba(0, 0, 0, 0.896195) 71.99%, #000000 85.75%);
+
+}
+
+.card:hover figcaption
+{
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+/*---------------------------------------------------------------------------------------------*/
